@@ -12,7 +12,7 @@ const multer = require("multer");
 const router = express.Router();
 const path = require("path");
 
-app.use('/uploads', express.static('uploads'));
+// app.use('/uploads', express.static('uploads'));
 
 
 const upload = multer({
